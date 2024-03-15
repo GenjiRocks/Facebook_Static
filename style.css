@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f2f5;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#facebookimg{
+    width: 240px;
+    margin: 30px 0 -4px 0
+}
+
+/* Main Section */
+
+#maincard{
+    width: 396px;
+    /* border: 1px solid red; */
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .1), 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    padding: 0 0 14px 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0 16px 0;
+    font-size: 18px;
+}
+
+.username{
+    margin: 0px 16px;
+    padding: 6px 0px;
+}
+
+.password{
+    margin: 0px 16px;
+    padding: 6px 0px;
+}
+
+.username input{
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+}
+
+.password input{
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+}
+.button{
+    padding: 6px 0px;
+    padding: 14px 16px;
+}
+#login{
+    
+    background-color: #1877f2;
+    color: white;
+    width: 360px;
+    padding: 0px 16px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    line-height: 48px;
+}
+
+#login:hover{
+    background-color: #1568d4;
+}
+
+.hyperlinks{
+    margin: 12px 0px 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.hyperlinks a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.hyperlinks a:hover{
+    text-decoration: underline;
+}
